@@ -1,0 +1,39 @@
+name: mobile_banking_neomorphism_app
+description: A new Flutter project.
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Commonly used packages (Updated to latest versions)
+  provider: ^6.1.0   # State management
+  http: ^1.1.2      # API calls
+  shared_preferences: ^2.2.2  # Local storage
+  flutter_svg: ^2.0.17  # SVG support (Updated)
+  intl: ^0.20.2      # Internationalization (Updated)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0  # Updated linting rules
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/  # Example: Add your image assets directory
+    - assets/icons/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+        - asset: fonts/Roboto-Bold.ttf
+          weight: 700
